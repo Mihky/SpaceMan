@@ -11,7 +11,7 @@ import UIKit
 class HomeScreenViewController: UIViewController {
     var homeScreenView = HomeScreenView()
     var gameViewController : GameViewController?
-    //    var storyViewController : storyViewController?
+    var storyViewController : StoryViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +42,8 @@ class HomeScreenViewController: UIViewController {
     }
     
     func goToStoryScreen() {
-        
+        self.storyViewController = StoryViewController()
+        self.presentViewController(self.storyViewController!, animated: true, completion: nil)
     }
     
     

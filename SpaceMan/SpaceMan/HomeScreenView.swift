@@ -62,24 +62,24 @@ class HomeScreenView : UIView {
         
         // Play button
         playButton.setTitle("Play", forState: UIControlState.Normal)
-        playButton.setTitleColor(UIColor(red:0.16, green:0.91, blue:0.83, alpha:1.0), forState: UIControlState.Normal)
+        playButton.setTitleColor(UIConstants.teal, forState: UIControlState.Normal)
         let playText = NSAttributedString(string: (playButton.titleLabel?.text)!, attributes: [NSKernAttributeName:5.0, NSFontAttributeName:playButton.titleLabel!.font, NSForegroundColorAttributeName:playButton.titleLabel!.textColor])
         playButton.setAttributedTitle(playText, forState: .Normal)
         playButton.backgroundColor = UIColor.blackColor()
         playButton.alpha = 0.75
         playButton.layer.borderWidth = 1.0
-        playButton.layer.borderColor = UIColor(red:0.16, green:0.91, blue:0.83, alpha:1.0).CGColor
+        playButton.layer.borderColor = UIConstants.teal.CGColor
         self.addSubview(self.playButton)
         
         // Story button
         storyButton.setTitle("Story", forState: UIControlState.Normal)
-        storyButton.setTitleColor(UIColor(red:0.16, green:0.91, blue:0.83, alpha:1.0), forState: UIControlState.Normal)
+        storyButton.setTitleColor(UIConstants.teal, forState: UIControlState.Normal)
         let storyText = NSAttributedString(string:(storyButton.titleLabel?.text)!, attributes: [NSKernAttributeName:5.0, NSFontAttributeName:storyButton.titleLabel!.font, NSForegroundColorAttributeName:storyButton.titleLabel!.textColor])
         storyButton.setAttributedTitle(storyText, forState: .Normal)
         storyButton.backgroundColor = UIColor.blackColor()
         storyButton.alpha = 0.75
         storyButton.layer.borderWidth = 1.0
-        storyButton.layer.borderColor = UIColor(red:0.16, green:0.91, blue:0.83, alpha:1.0).CGColor
+        storyButton.layer.borderColor = UIConstants.teal.CGColor
         self.addSubview(self.storyButton)
     }
     

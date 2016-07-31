@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64205CAC1D4DC75900536AB6 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64205CAB1D4DC75900536AB6 /* SceneKit.framework */; };
+		64205CAE1D4DCB8800536AB6 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64205CAD1D4DCB8800536AB6 /* UIConstants.swift */; };
 		644A9D9A1D4AC7040092C2CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9D991D4AC7040092C2CD /* AppDelegate.swift */; };
 		644A9D9C1D4AC7040092C2CD /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9D9B1D4AC7040092C2CD /* HomeScreenViewController.swift */; };
 		644A9D9F1D4AC7040092C2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A9D9D1D4AC7040092C2CD /* Main.storyboard */; };
@@ -14,14 +16,52 @@
 		644A9DA41D4AC7040092C2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A9DA21D4AC7040092C2CD /* LaunchScreen.storyboard */; };
 		644A9DAC1D4AC7870092C2CD /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DAB1D4AC7870092C2CD /* HomeScreenView.swift */; };
 		644A9DAE1D4AC7A30092C2CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DAD1D4AC7A30092C2CD /* GameViewController.swift */; };
-		644A9DB01D4AC7AC0092C2CD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DAF1D4AC7AC0092C2CD /* GameView.swift */; };
 		644A9DB21D4AC8010092C2CD /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DB11D4AC8010092C2CD /* StoryViewController.swift */; };
-		644A9DB41D4AC80B0092C2CD /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DB31D4AC80B0092C2CD /* StoryView.swift */; };
 		644A9DB61D4AC8470092C2CD /* SpaceManPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DB51D4AC8470092C2CD /* SpaceManPlayer.swift */; };
 		644A9DB81D4AC8510092C2CD /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9DB71D4AC8510092C2CD /* Alien.swift */; };
+		644A9DCA1D4AC9AE0092C2CD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DBA1D4AC9AE0092C2CD /* Accelerate.framework */; };
+		644A9DCB1D4AC9AE0092C2CD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DBB1D4AC9AE0092C2CD /* AssetsLibrary.framework */; };
+		644A9DCC1D4AC9AE0092C2CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DBC1D4AC9AE0092C2CD /* AVFoundation.framework */; };
+		644A9DCD1D4AC9AE0092C2CD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DBD1D4AC9AE0092C2CD /* CFNetwork.framework */; };
+		644A9DCE1D4AC9AE0092C2CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DBE1D4AC9AE0092C2CD /* CoreGraphics.framework */; };
+		644A9DCF1D4AC9AE0092C2CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DBF1D4AC9AE0092C2CD /* CoreLocation.framework */; };
+		644A9DD01D4AC9AE0092C2CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC01D4AC9AE0092C2CD /* CoreMedia.framework */; };
+		644A9DD11D4AC9AE0092C2CD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC11D4AC9AE0092C2CD /* CoreMotion.framework */; };
+		644A9DD21D4AC9AE0092C2CD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC21D4AC9AE0092C2CD /* CoreText.framework */; };
+		644A9DD31D4AC9AE0092C2CD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC31D4AC9AE0092C2CD /* CoreVideo.framework */; };
+		644A9DD41D4AC9AE0092C2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC41D4AC9AE0092C2CD /* Foundation.framework */; };
+		644A9DD51D4AC9AE0092C2CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC51D4AC9AE0092C2CD /* MediaPlayer.framework */; };
+		644A9DD61D4AC9AE0092C2CD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC61D4AC9AE0092C2CD /* OpenGLES.framework */; };
+		644A9DD71D4AC9AE0092C2CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC71D4AC9AE0092C2CD /* QuartzCore.framework */; };
+		644A9DD81D4AC9AE0092C2CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC81D4AC9AE0092C2CD /* Security.framework */; };
+		644A9DD91D4AC9AE0092C2CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DC91D4AC9AE0092C2CD /* UIKit.framework */; };
+		644A9DDC1D4AC9D90092C2CD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DDA1D4AC9D90092C2CD /* libc++.tbd */; };
+		644A9DDD1D4AC9D90092C2CD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DDB1D4AC9D90092C2CD /* libz.tbd */; };
+		644A9DE31D4ACE1A0092C2CD /* WikitudeNativeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DE21D4ACE1A0092C2CD /* WikitudeNativeSDK.framework */; };
+		644A9DE41D4AD1AA0092C2CD /* WikitudeNativeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DE21D4ACE1A0092C2CD /* WikitudeNativeSDK.framework */; };
+		644A9DE51D4AD1AA0092C2CD /* WikitudeNativeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9DE21D4ACE1A0092C2CD /* WikitudeNativeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		968F6E92415398FC886290F7 /* Pods_SpaceMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D483E7FE5F87AC25A41B7 /* Pods_SpaceMan.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		644A9DE61D4AD1AB0092C2CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				644A9DE51D4AD1AA0092C2CD /* WikitudeNativeSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		14901C12B76BFDC1B1F69877 /* Pods-SpaceMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceMan/Pods-SpaceMan.release.xcconfig"; sourceTree = "<group>"; };
+		1D9D483E7FE5F87AC25A41B7 /* Pods_SpaceMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64205CAB1D4DC75900536AB6 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		64205CAD1D4DCB8800536AB6 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		644A9D961D4AC7030092C2CD /* SpaceMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A9D991D4AC7040092C2CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		644A9D9B1D4AC7040092C2CD /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
@@ -31,11 +71,29 @@
 		644A9DA51D4AC7040092C2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644A9DAB1D4AC7870092C2CD /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		644A9DAD1D4AC7A30092C2CD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		644A9DAF1D4AC7AC0092C2CD /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		644A9DB11D4AC8010092C2CD /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
-		644A9DB31D4AC80B0092C2CD /* StoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		644A9DB51D4AC8470092C2CD /* SpaceManPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceManPlayer.swift; sourceTree = "<group>"; };
 		644A9DB71D4AC8510092C2CD /* Alien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alien.swift; sourceTree = "<group>"; };
+		644A9DBA1D4AC9AE0092C2CD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		644A9DBB1D4AC9AE0092C2CD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		644A9DBC1D4AC9AE0092C2CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		644A9DBD1D4AC9AE0092C2CD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		644A9DBE1D4AC9AE0092C2CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		644A9DBF1D4AC9AE0092C2CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		644A9DC01D4AC9AE0092C2CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		644A9DC11D4AC9AE0092C2CD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		644A9DC21D4AC9AE0092C2CD /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		644A9DC31D4AC9AE0092C2CD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		644A9DC41D4AC9AE0092C2CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		644A9DC51D4AC9AE0092C2CD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		644A9DC61D4AC9AE0092C2CD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		644A9DC71D4AC9AE0092C2CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		644A9DC81D4AC9AE0092C2CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		644A9DC91D4AC9AE0092C2CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		644A9DDA1D4AC9D90092C2CD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		644A9DDB1D4AC9D90092C2CD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		644A9DE21D4ACE1A0092C2CD /* WikitudeNativeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeNativeSDK.framework; path = "../../../../Downloads/WikitudeSDK_NativeAPI_iOS_1-3-0_2016_07_11_13_03_11/Framework/WikitudeNativeSDK.framework"; sourceTree = "<group>"; };
+		AC3C587012999E040D41CBF3 /* Pods-SpaceMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceMan/Pods-SpaceMan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +101,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64205CAC1D4DC75900536AB6 /* SceneKit.framework in Frameworks */,
+				644A9DE31D4ACE1A0092C2CD /* WikitudeNativeSDK.framework in Frameworks */,
+				644A9DDC1D4AC9D90092C2CD /* libc++.tbd in Frameworks */,
+				644A9DDD1D4AC9D90092C2CD /* libz.tbd in Frameworks */,
+				644A9DCA1D4AC9AE0092C2CD /* Accelerate.framework in Frameworks */,
+				644A9DCB1D4AC9AE0092C2CD /* AssetsLibrary.framework in Frameworks */,
+				644A9DCC1D4AC9AE0092C2CD /* AVFoundation.framework in Frameworks */,
+				644A9DE41D4AD1AA0092C2CD /* WikitudeNativeSDK.framework in Frameworks */,
+				644A9DCD1D4AC9AE0092C2CD /* CFNetwork.framework in Frameworks */,
+				644A9DCE1D4AC9AE0092C2CD /* CoreGraphics.framework in Frameworks */,
+				644A9DCF1D4AC9AE0092C2CD /* CoreLocation.framework in Frameworks */,
+				644A9DD01D4AC9AE0092C2CD /* CoreMedia.framework in Frameworks */,
+				644A9DD11D4AC9AE0092C2CD /* CoreMotion.framework in Frameworks */,
+				644A9DD21D4AC9AE0092C2CD /* CoreText.framework in Frameworks */,
+				644A9DD31D4AC9AE0092C2CD /* CoreVideo.framework in Frameworks */,
+				644A9DD41D4AC9AE0092C2CD /* Foundation.framework in Frameworks */,
+				644A9DD51D4AC9AE0092C2CD /* MediaPlayer.framework in Frameworks */,
+				644A9DD61D4AC9AE0092C2CD /* OpenGLES.framework in Frameworks */,
+				644A9DD71D4AC9AE0092C2CD /* QuartzCore.framework in Frameworks */,
+				644A9DD81D4AC9AE0092C2CD /* Security.framework in Frameworks */,
+				644A9DD91D4AC9AE0092C2CD /* UIKit.framework in Frameworks */,
+				968F6E92415398FC886290F7 /* Pods_SpaceMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +135,7 @@
 				644A9D981D4AC7040092C2CD /* SpaceMan */,
 				644A9DB91D4AC8740092C2CD /* Frameworks */,
 				644A9D971D4AC7030092C2CD /* Products */,
+				7B21A20CBE24F6EB5EAB7A0F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,11 +154,10 @@
 				644A9D9B1D4AC7040092C2CD /* HomeScreenViewController.swift */,
 				644A9DAB1D4AC7870092C2CD /* HomeScreenView.swift */,
 				644A9DAD1D4AC7A30092C2CD /* GameViewController.swift */,
-				644A9DAF1D4AC7AC0092C2CD /* GameView.swift */,
 				644A9DB11D4AC8010092C2CD /* StoryViewController.swift */,
-				644A9DB31D4AC80B0092C2CD /* StoryView.swift */,
 				644A9DB51D4AC8470092C2CD /* SpaceManPlayer.swift */,
 				644A9DB71D4AC8510092C2CD /* Alien.swift */,
+				64205CAD1D4DCB8800536AB6 /* UIConstants.swift */,
 				644A9D9D1D4AC7040092C2CD /* Main.storyboard */,
 				644A9DA01D4AC7040092C2CD /* Assets.xcassets */,
 				644A9DA21D4AC7040092C2CD /* LaunchScreen.storyboard */,
@@ -89,9 +169,39 @@
 		644A9DB91D4AC8740092C2CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64205CAB1D4DC75900536AB6 /* SceneKit.framework */,
+				644A9DE21D4ACE1A0092C2CD /* WikitudeNativeSDK.framework */,
+				644A9DDA1D4AC9D90092C2CD /* libc++.tbd */,
+				644A9DDB1D4AC9D90092C2CD /* libz.tbd */,
+				644A9DBA1D4AC9AE0092C2CD /* Accelerate.framework */,
+				644A9DBB1D4AC9AE0092C2CD /* AssetsLibrary.framework */,
+				644A9DBC1D4AC9AE0092C2CD /* AVFoundation.framework */,
+				644A9DBD1D4AC9AE0092C2CD /* CFNetwork.framework */,
+				644A9DBE1D4AC9AE0092C2CD /* CoreGraphics.framework */,
+				644A9DBF1D4AC9AE0092C2CD /* CoreLocation.framework */,
+				644A9DC01D4AC9AE0092C2CD /* CoreMedia.framework */,
+				644A9DC11D4AC9AE0092C2CD /* CoreMotion.framework */,
+				644A9DC21D4AC9AE0092C2CD /* CoreText.framework */,
+				644A9DC31D4AC9AE0092C2CD /* CoreVideo.framework */,
+				644A9DC41D4AC9AE0092C2CD /* Foundation.framework */,
+				644A9DC51D4AC9AE0092C2CD /* MediaPlayer.framework */,
+				644A9DC61D4AC9AE0092C2CD /* OpenGLES.framework */,
+				644A9DC71D4AC9AE0092C2CD /* QuartzCore.framework */,
+				644A9DC81D4AC9AE0092C2CD /* Security.framework */,
+				644A9DC91D4AC9AE0092C2CD /* UIKit.framework */,
+				1D9D483E7FE5F87AC25A41B7 /* Pods_SpaceMan.framework */,
 			);
 			name = Frameworks;
 			path = SpaceMan;
+			sourceTree = "<group>";
+		};
+		7B21A20CBE24F6EB5EAB7A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC3C587012999E040D41CBF3 /* Pods-SpaceMan.debug.xcconfig */,
+				14901C12B76BFDC1B1F69877 /* Pods-SpaceMan.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +211,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644A9DA81D4AC7040092C2CD /* Build configuration list for PBXNativeTarget "SpaceMan" */;
 			buildPhases = (
+				CCE2C8F2CB6A79899CC1436A /* 📦 Check Pods Manifest.lock */,
 				644A9D921D4AC7030092C2CD /* Sources */,
 				644A9D931D4AC7030092C2CD /* Frameworks */,
 				644A9D941D4AC7030092C2CD /* Resources */,
+				644A9DE61D4AD1AB0092C2CD /* Embed Frameworks */,
+				B1E419DA97AA950F193C0277 /* 📦 Embed Pods Frameworks */,
+				6AC8F03C07219EEAD90FF21B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +274,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AC8F03C07219EEAD90FF21B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceMan/Pods-SpaceMan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E419DA97AA950F193C0277 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceMan/Pods-SpaceMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE2C8F2CB6A79899CC1436A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		644A9D921D4AC7030092C2CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -168,12 +330,11 @@
 				644A9DB21D4AC8010092C2CD /* StoryViewController.swift in Sources */,
 				644A9DAE1D4AC7A30092C2CD /* GameViewController.swift in Sources */,
 				644A9DAC1D4AC7870092C2CD /* HomeScreenView.swift in Sources */,
-				644A9DB41D4AC80B0092C2CD /* StoryView.swift in Sources */,
 				644A9DB61D4AC8470092C2CD /* SpaceManPlayer.swift in Sources */,
 				644A9D9C1D4AC7040092C2CD /* HomeScreenViewController.swift in Sources */,
 				644A9DB81D4AC8510092C2CD /* Alien.swift in Sources */,
 				644A9D9A1D4AC7040092C2CD /* AppDelegate.swift in Sources */,
-				644A9DB01D4AC7AC0092C2CD /* GameView.swift in Sources */,
+				64205CAE1D4DCB8800536AB6 /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +381,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -266,6 +430,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -286,23 +453,52 @@
 		};
 		644A9DA91D4AC7040092C2CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3C587012999E040D41CBF3 /* Pods-SpaceMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SpaceMan",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = SpaceMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SpaceMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		644A9DAA1D4AC7040092C2CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14901C12B76BFDC1B1F69877 /* Pods-SpaceMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SpaceMan",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = SpaceMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SpaceMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -325,6 +521,7 @@
 				644A9DAA1D4AC7040092C2CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
