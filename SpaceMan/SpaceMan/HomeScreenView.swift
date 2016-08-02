@@ -69,6 +69,7 @@ class HomeScreenView : UIView {
         playButton.alpha = 0.75
         playButton.layer.borderWidth = 1.0
         playButton.layer.borderColor = UIConstants.teal.CGColor
+        playButton.layer.cornerRadius = 20;
         self.addSubview(self.playButton)
         
         // Story button
@@ -80,6 +81,7 @@ class HomeScreenView : UIView {
         storyButton.alpha = 0.75
         storyButton.layer.borderWidth = 1.0
         storyButton.layer.borderColor = UIConstants.teal.CGColor
+        storyButton.layer.cornerRadius = 20;
         self.addSubview(self.storyButton)
     }
     

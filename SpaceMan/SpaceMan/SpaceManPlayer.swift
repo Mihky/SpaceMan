@@ -32,7 +32,7 @@ class SpaceManPlayer : NSObject {
     }
     
     func reduceAmmo(ammoUsed: Int) {
-        
+        self.playerAmmo -= ammoUsed
     }
     
     func getHealth() -> Int {

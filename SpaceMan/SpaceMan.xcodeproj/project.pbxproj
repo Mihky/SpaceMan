@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		64205CAC1D4DC75900536AB6 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64205CAB1D4DC75900536AB6 /* SceneKit.framework */; };
 		64205CAE1D4DCB8800536AB6 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64205CAD1D4DCB8800536AB6 /* UIConstants.swift */; };
+		64205CBC1D4E8FAB00536AB6 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64205CBB1D4E8FAB00536AB6 /* FontAwesomeKit.framework */; };
 		644A9D9A1D4AC7040092C2CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9D991D4AC7040092C2CD /* AppDelegate.swift */; };
 		644A9D9C1D4AC7040092C2CD /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A9D9B1D4AC7040092C2CD /* HomeScreenViewController.swift */; };
 		644A9D9F1D4AC7040092C2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A9D9D1D4AC7040092C2CD /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		1D9D483E7FE5F87AC25A41B7 /* Pods_SpaceMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64205CAB1D4DC75900536AB6 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		64205CAD1D4DCB8800536AB6 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		64205CBB1D4E8FAB00536AB6 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeKit.framework; path = "Pods/../build/Debug-iphoneos/FontAwesomeKit/FontAwesomeKit.framework"; sourceTree = SOURCE_ROOT; };
 		644A9D961D4AC7030092C2CD /* SpaceMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A9D991D4AC7040092C2CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		644A9D9B1D4AC7040092C2CD /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64205CBC1D4E8FAB00536AB6 /* FontAwesomeKit.framework in Frameworks */,
 				64205CAC1D4DC75900536AB6 /* SceneKit.framework in Frameworks */,
 				644A9DE31D4ACE1A0092C2CD /* WikitudeNativeSDK.framework in Frameworks */,
 				644A9DDC1D4AC9D90092C2CD /* libc++.tbd in Frameworks */,
@@ -169,6 +172,7 @@
 		644A9DB91D4AC8740092C2CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64205CBB1D4E8FAB00536AB6 /* FontAwesomeKit.framework */,
 				64205CAB1D4DC75900536AB6 /* SceneKit.framework */,
 				644A9DE21D4ACE1A0092C2CD /* WikitudeNativeSDK.framework */,
 				644A9DDA1D4AC9D90092C2CD /* libc++.tbd */,
@@ -463,6 +467,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/SpaceMan",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FontAwesomeKit",
 				);
 				INFOPLIST_FILE = SpaceMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -489,6 +494,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/SpaceMan",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FontAwesomeKit",
 				);
 				INFOPLIST_FILE = SpaceMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
