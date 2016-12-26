@@ -1,6 +1,9 @@
 # SpaceMan
 ![screenshot 6](https://cloud.githubusercontent.com/assets/9558416/21293030/3f57ab8e-c4cd-11e6-9a6e-df4fa795816d.png)
 
+# About
+AR arcade-style shooter game. User is Spaceman and crashes on Earth to escape from aliens, but must make a final stand and fight for his life.
+
 # Goals
 I want to create this game mainly because:
 
