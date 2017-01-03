@@ -12,4 +12,4 @@ I want to create this game mainly because:
 2. I want to incorporate augmented reality and markerless tracking, in which I don't need image targets to augment 3D objects. (Similar to Pokemon Go)
 
 # Current Progress
-Working on getting the UI all finished up in terms of original characters, sprites, aliens, weapon blaster, animations, etc. Lots to do :scream:
+Working on getting the UI all finished up in terms of original characters, sprites, aliens, weapon blaster, animations, etc. Lots to do :new_moon_with_face::+1:
